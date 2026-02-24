@@ -1,0 +1,133 @@
+import { MapPin, Phone, Mail, Send } from 'lucide-react';
+
+export default function Contact() {
+    return (
+        <div className="pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto min-h-screen">
+            <div className="mb-16 text-center max-w-3xl mx-auto">
+                <span className="text-brand-secondary font-semibold uppercase tracking-wider text-sm mb-2 block">Reach Out</span>
+                <h1 className="text-4xl md:text-5xl font-extrabold text-brand-text mb-6">Contact Us</h1>
+                <p className="text-lg text-gray-600">
+                    Have a question about our tours or need to book a taxi? We're here to help you plan your perfect Kerala itinerary.
+                </p>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100">
+
+                {/* Contact Information & Map */}
+                <div className="bg-brand-primary p-8 md:p-12 text-white flex flex-col justify-between">
+                    <div>
+                        <h2 className="text-3xl font-bold mb-8">Get In Touch</h2>
+                        <ul className="space-y-8">
+                            <li className="flex items-start gap-4">
+                                <div className="bg-white/10 p-3 rounded-full shrink-0">
+                                    <MapPin size={24} className="text-brand-secondary" />
+                                </div>
+                                <div>
+                                    <h4 className="font-semibold text-lg mb-1">Office Location</h4>
+                                    <p className="text-white/80 leading-relaxed">Arookutty Taxi Service<br />Naval Base, Ernakulam<br />Kerala, India 682004</p>
+                                </div>
+                            </li>
+                            <li className="flex items-start gap-4">
+                                <div className="bg-white/10 p-3 rounded-full shrink-0">
+                                    <Phone size={24} className="text-brand-secondary" />
+                                </div>
+                                <div>
+                                    <h4 className="font-semibold text-lg mb-1">Phone Number</h4>
+                                    <a href="tel:+919876543210" className="text-white/80 hover:text-brand-secondary transition-colors block">+91 98765 43210</a>
+                                    <a href="tel:+919876543211" className="text-white/80 hover:text-brand-secondary transition-colors block">+91 98765 43211</a>
+                                </div>
+                            </li>
+                            <li className="flex items-start gap-4">
+                                <div className="bg-white/10 p-3 rounded-full shrink-0">
+                                    <Mail size={24} className="text-brand-secondary" />
+                                </div>
+                                <div>
+                                    <h4 className="font-semibold text-lg mb-1">Email Address</h4>
+                                    <a href="mailto:info@arookuttytaxi.com" className="text-white/80 hover:text-brand-secondary transition-colors">info@arookuttytaxi.com</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className="mt-12 rounded-xl overflow-hidden shadow-inner h-64 relative ring-4 ring-white/10">
+                        {/* Embedded Google Maps iframe pointing to Ernakulam Naval Base area */}
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.53982361625!2d76.26914561533252!3d9.95484899288591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b08132ca184f4fb%3A0xc3f605faeca9e000!2sNaval%20Base%2C%20Willingdon%20Island%2C%20Kochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1689231451241!5m2!1sen!2sin"
+                            className="absolute inset-0 w-full h-full border-0"
+                            allowFullScreen=""
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                            title="Arookutty Taxi Service Location"
+                        ></iframe>
+                    </div>
+                </div>
+
+                {/* Contact Form */}
+                <div className="p-8 md:p-12 bg-white">
+                    <h2 className="text-3xl font-bold text-brand-text mb-8">Send a Message</h2>
+                    <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div className="space-y-2">
+                                <label className="text-sm font-semibold text-gray-700">First Name</label>
+                                <input
+                                    type="text"
+                                    placeholder="John"
+                                    className="w-full bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-primary/50 focus:border-brand-primary transition-all text-brand-text"
+                                    required
+                                />
+                            </div>
+                            <div className="space-y-2">
+                                <label className="text-sm font-semibold text-gray-700">Last Name</label>
+                                <input
+                                    type="text"
+                                    placeholder="Doe"
+                                    className="w-full bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-primary/50 focus:border-brand-primary transition-all text-brand-text"
+                                    required
+                                />
+                            </div>
+                        </div>
+
+                        <div className="space-y-2">
+                            <label className="text-sm font-semibold text-gray-700">Email Address</label>
+                            <input
+                                type="email"
+                                placeholder="john@example.com"
+                                className="w-full bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-primary/50 focus:border-brand-primary transition-all text-brand-text"
+                                required
+                            />
+                        </div>
+
+                        <div className="space-y-2">
+                            <label className="text-sm font-semibold text-gray-700">Subject</label>
+                            <select className="w-full bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-primary/50 focus:border-brand-primary transition-all text-brand-text cursor-pointer">
+                                <option value="taxi">Taxi Booking Inquiry</option>
+                                <option value="tour">Tour Package Inquiry</option>
+                                <option value="support">Customer Support</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div className="space-y-2">
+                            <label className="text-sm font-semibold text-gray-700">Your Message</label>
+                            <textarea
+                                rows="5"
+                                placeholder="Tell us about your travel plans..."
+                                className="w-full bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-primary/50 focus:border-brand-primary transition-all text-brand-text resize-none"
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button
+                            type="submit"
+                            className="w-full bg-brand-primary hover:bg-brand-primary/90 text-white font-bold py-4 rounded-lg flex items-center justify-center gap-2 transition-transform hover:-translate-y-1 shadow-md hover:shadow-xl"
+                        >
+                            <Send size={20} />
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    );
+}
