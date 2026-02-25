@@ -20,7 +20,7 @@ export default function Navbar() {
   }, [location]);
 
   const navLinks = [
-    { name: 'Home', path: '/' },
+    // { name: 'Home', path: '/' },
     { name: 'About Us', path: '/about' },
     { name: 'Packages', path: '/packages' },
     { name: 'Destinations', path: '/destinations' },
@@ -51,7 +51,7 @@ export default function Navbar() {
                 </Link>
               ))}
             </div>
-            <a href="tel:+919876543210" className="flex items-center gap-2 bg-brand-primary text-white px-4 py-2 rounded-full font-medium hover:bg-brand-primary/90 transition-all">
+            <a href="tel:+918075618500" className="flex items-center gap-2 bg-brand-primary text-white px-4 py-2 rounded-full font-medium hover:bg-brand-primary/90 transition-all">
               <Phone size={18} />
               <span>Book Now</span>
             </a>
@@ -81,7 +81,7 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
-            <a href="tel:+919876543210" className="flex items-center justify-center gap-2 bg-brand-primary text-white px-4 py-3 rounded-md font-medium mt-4 mx-2">
+            <a href="tel:+918075618500" className="flex items-center justify-center gap-2 bg-brand-primary text-white px-4 py-3 rounded-md font-medium mt-4 mx-2">
               <Phone size={18} />
               <span>Book Now</span>
             </a>

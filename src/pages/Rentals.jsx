@@ -51,8 +51,8 @@ const VehicleCard = ({ vehicle, idx }) => {
                                     key={dotIdx}
                                     onClick={() => setCurrentImageIndex(dotIdx)}
                                     className={`h-2 rounded-full transition-all duration-300 shadow-sm ${dotIdx === currentImageIndex
-                                            ? 'bg-white w-5'
-                                            : 'bg-white/60 w-2 hover:bg-white/90'
+                                        ? 'bg-white w-5'
+                                        : 'bg-white/60 w-2 hover:bg-white/90'
                                         }`}
                                     aria-label={`Go to image ${dotIdx + 1}`}
                                 />
@@ -94,7 +94,7 @@ const VehicleCard = ({ vehicle, idx }) => {
                         </p>
                     </div>
                     <a
-                        href="tel:+919876543210"
+                        href="tel:+918075618500"
                         className="px-6 py-3 bg-brand-secondary text-white font-bold rounded-lg hover:bg-brand-secondary/90 transition-colors shadow-md hover:shadow-lg"
                     >
                         Book Now

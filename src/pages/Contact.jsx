@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Send } from 'lucide-react';
+import { MapPin, Phone, Mail, Send, Star } from 'lucide-react';
 
 export default function Contact() {
     return (
@@ -24,7 +24,7 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-lg mb-1">Office Location</h4>
-                                    <p className="text-white/80 leading-relaxed">Arookutty Taxi Service<br />Naval Base, Ernakulam<br />Kerala, India 682004</p>
+                                    <p className="text-white/80 leading-relaxed">V85P+W29, Kombanamuri - Kattupuram Road<br />Arookutty,Alappuzha<br />Kerala 688535</p>
                                 </div>
                             </li>
                             <li className="flex items-start gap-4">
@@ -33,8 +33,7 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-lg mb-1">Phone Number</h4>
-                                    <a href="tel:+919876543210" className="text-white/80 hover:text-brand-secondary transition-colors block">+91 98765 43210</a>
-                                    <a href="tel:+919876543211" className="text-white/80 hover:text-brand-secondary transition-colors block">+91 98765 43211</a>
+                                    <a href="tel:+918075618500" className="text-white/80 hover:text-brand-secondary transition-colors block">+91 8075618500</a>
                                 </div>
                             </li>
                             <li className="flex items-start gap-4">
@@ -46,13 +45,14 @@ export default function Contact() {
                                     <a href="mailto:info@arookuttytaxi.com" className="text-white/80 hover:text-brand-secondary transition-colors">info@arookuttytaxi.com</a>
                                 </div>
                             </li>
+
                         </ul>
                     </div>
 
                     <div className="mt-12 rounded-xl overflow-hidden shadow-inner h-64 relative ring-4 ring-white/10">
-                        {/* Embedded Google Maps iframe pointing to Ernakulam Naval Base area */}
+                        {/* Embedded Google Maps iframe pointing to Arookutty Taxi Service */}
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.53982361625!2d76.26914561533252!3d9.95484899288591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b08132ca184f4fb%3A0xc3f605faeca9e000!2sNaval%20Base%2C%20Willingdon%20Island%2C%20Kochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1689231451241!5m2!1sen!2sin"
+                            src="https://maps.google.com/maps?q=Arookutty+Taxi+Service,+Kombanamuri,+Kerala&t=&z=15&ie=UTF8&iwloc=&output=embed"
                             className="absolute inset-0 w-full h-full border-0"
                             allowFullScreen=""
                             loading="lazy"

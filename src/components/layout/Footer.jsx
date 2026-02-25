@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Facebook, Instagram, Twitter, MapPin, Phone, Mail, ArrowRight } from 'lucide-react';
+import { Facebook, Instagram, Twitter, MapPin, Phone, Mail, ArrowRight, Star } from 'lucide-react';
 
 export default function Footer() {
     const currentYear = new Date().getFullYear();
@@ -58,15 +58,19 @@ export default function Footer() {
                         <ul className="space-y-4">
                             <li className="flex items-start gap-3 text-gray-300">
                                 <MapPin size={20} className="text-brand-primary shrink-0 mt-1" />
-                                <span>Naval Base, Ernakulam<br />Kerala, India 682004</span>
+                                <span>V85P+W29, Kombanamuri - Kattupuram Road<br />Arookutty,Alappuzha<br />Kerala 688535</span>
                             </li>
                             <li className="flex items-center gap-3 text-gray-300">
                                 <Phone size={20} className="text-brand-primary shrink-0" />
-                                <a href="tel:+919876543210" className="hover:text-brand-secondary transition-colors">+91 98765 43210</a>
+                                <a href="tel:+918075618500" className="hover:text-brand-secondary transition-colors">+91 8075618500</a>
                             </li>
                             <li className="flex items-center gap-3 text-gray-300">
                                 <Mail size={20} className="text-brand-primary shrink-0" />
                                 <a href="mailto:info@arookuttytaxi.com" className="hover:text-brand-secondary transition-colors">info@arookuttytaxi.com</a>
+                            </li>
+                            <li className="flex items-center gap-3 text-gray-300">
+                                <Star size={20} className="text-brand-primary shrink-0" />
+                                <a href="https://www.google.com/search?q=arrokutty+taxi+serivce&oq=ar&gs_lcrp=EgZjaHJvbWUqBggBEEUYOzIGCAAQRRg5MgYIARBFGDsyDggCEEUYJxg7GIAEGIoFMgwIAxAjGCcYgAQYigUyDQgEEAAYgwEYsQMYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg0MDQwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#irp=&lrd=0x3b0871c27a0c0d5f:0x22def7090d66dd9c,1,,,," target="_blank" rel="noopener noreferrer" className="hover:text-brand-secondary transition-colors">Review us on Google</a>
                             </li>
                         </ul>
                     </div>

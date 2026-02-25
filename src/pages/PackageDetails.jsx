@@ -295,13 +295,13 @@ export default function PackageDetails() {
                                 <div className="mt-8 pt-8 border-t border-gray-100 text-center">
                                     <p className="text-gray-500 text-sm mb-3">Need immediate assistance?</p>
                                     <a
-                                        href="tel:+919876543210"
+                                        href="tel:+918075618500"
                                         className="inline-flex items-center gap-2 text-brand-primary font-bold hover:text-brand-secondary transition-colors"
                                     >
                                         <div className="w-10 h-10 rounded-full bg-brand-bg flex items-center justify-center border border-brand-primary/10">
                                             <Phone size={18} />
                                         </div>
-                                        <span className="text-lg">+91 98765 43210</span>
+                                        <span className="text-lg">+91 8075618500</span>
                                     </a>
                                 </div>
                             </div>
