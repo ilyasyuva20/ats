@@ -1,3 +1,6 @@
+import thekkadySafariImg from '../assets/thekkady_safari.jpg';
+import kumarakomBackwatersImg from '../assets/kumarakom_backwaters.jpg';
+
 export const packagesData = [
     {
         id: 1,
@@ -52,8 +55,9 @@ export const packagesData = [
         duration: '2 Days / 1 Night',
         price: '5,000',
         image: 'https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&q=80&w=800',
-        featured: false,
+        featured: true,
         overview: 'Drift along the serene backwaters of Alleppey in a traditional Kerala Houseboat. Experience the unique lifestyle of the backwater villages, savor authentic Kerala cuisine prepared on board, and witness a spectacular sunset over the tranquil waters.',
+
         itinerary: [
             {
                 day: 1,
@@ -169,7 +173,7 @@ export const packagesData = [
         location: 'Thekkady',
         duration: '2 Days / 1 Night',
         price: '6,800',
-        image: 'https://images.unsplash.com/photo-1588880625902-690a6a382e7e?auto=format&fit=crop&q=80&w=800',
+        image: thekkadySafariImg,
         featured: true,
         overview: 'Immerse yourself in the wild beauty of Periyar National Park. This short trip offers the perfect mix of wildlife spotting, spice plantation tours, and an authentic experience of Kerala’s rich biodiversity.',
         itinerary: [
@@ -206,7 +210,7 @@ export const packagesData = [
         location: 'Kumarakom',
         duration: '3 Days / 2 Nights',
         price: '9,500',
-        image: 'https://images.unsplash.com/photo-1592667362846-5be81a30f14d?auto=format&fit=crop&q=80&w=800',
+        image: kumarakomBackwatersImg,
         featured: false,
         overview: 'Relax in the sleepy village of Kumarakom, located on the banks of Vembanad Lake. Experience world-class resorts, Ayurvedic therapies, and the famous Kumarakom Bird Sanctuary in this deeply rejuvenating trip.',
         itinerary: [

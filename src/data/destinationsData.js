@@ -1,3 +1,6 @@
+import thekkadySafariImg from '../assets/thekkady_safari.jpg';
+import kumarakomBackwatersImg from '../assets/kumarakom_backwaters.jpg';
+
 export const destinationsData = [
     {
         id: 1,
@@ -20,17 +23,17 @@ export const destinationsData = [
             {
                 name: 'Mattupetty Dam',
                 description: 'A beautiful concrete gravity dam surrounded by lush green valleys, popular for speed boating and horse riding.',
-                image: 'https://images.unsplash.com/photo-1622308644420-a81d45763943?auto=format&fit=crop&q=80&w=600'
+                image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&q=80&w=600'
             },
             {
                 name: 'Tea Museum',
                 description: 'Housed at the Nallathanni Estate, this museum showcases the genesis and growth of tea plantations in Munnar.',
-                image: 'https://images.unsplash.com/photo-1596431940026-b8fdb21d2146?auto=format&fit=crop&q=80&w=600'
+                image: 'https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&q=80&w=600'
             },
             {
                 name: 'Echo Point',
                 description: 'Known for its natural echo phenomenon, situated at the confluence of three mountain streams.',
-                image: 'https://images.unsplash.com/photo-1590465551276-886f4a7c06ad?auto=format&fit=crop&q=80&w=600'
+                image: 'https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&q=80&w=600'
             }
         ]
     },
@@ -55,17 +58,17 @@ export const destinationsData = [
             {
                 name: 'Alappuzha Beach',
                 description: 'A scenic white sand beach with a 137-year-old pier extending into the Arabian Sea.',
-                image: 'https://images.unsplash.com/photo-1549487664-9ed1f0ddb79e?auto=format&fit=crop&q=80&w=600'
+                image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&q=80&w=600'
             },
             {
                 name: 'Krishnapuram Palace',
                 description: 'An 18th-century palace built by Anizham Thirunal Marthanda Varma featuring traditional Kerala architecture and ancient murals.',
-                image: 'https://images.unsplash.com/photo-1620614349341-e94f3ac2670e?auto=format&fit=crop&q=80&w=600'
+                image: 'https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&q=80&w=600'
             },
             {
                 name: 'Pathiramanal Island',
                 description: 'A small island in Vembanad Lake, accessible only by boat, making it a haven for hundreds of rare migratory birds.',
-                image: 'https://images.unsplash.com/photo-1624467006856-ee0f09a65f9a?auto=format&fit=crop&q=80&w=600'
+                image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&q=80&w=600'
             }
         ]
     },
@@ -85,22 +88,22 @@ export const destinationsData = [
             {
                 name: 'Edakkal Caves',
                 description: 'Famous for its ancient petroglyphs tracing back to the Neolithic age, requiring an adventurous trek to reach.',
-                image: 'https://images.unsplash.com/photo-1625902130383-7be5435dcff0?auto=format&fit=crop&q=80&w=600'
+                image: 'https://images.unsplash.com/photo-1593693411515-c20261bcad6e?auto=format&fit=crop&q=80&w=600'
             },
             {
                 name: 'Banasura Sagar Dam',
                 description: 'The largest earth dam in India, offering spectacular views of the Banasura hills and thrilling boating experiences.',
-                image: 'https://images.unsplash.com/photo-1589578119856-78cb5846fb01?auto=format&fit=crop&q=80&w=600'
+                image: 'https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&q=80&w=600'
             },
             {
                 name: 'Soochipara Waterfalls',
                 description: 'A three-tiered waterfall surrounded by deciduous, evergreen and montane forests, ideal for rock climbing and swimming.',
-                image: 'https://images.unsplash.com/photo-1614949509428-2ce2fc0d75a1?auto=format&fit=crop&q=80&w=600'
+                image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&q=80&w=600'
             },
             {
                 name: 'Muthanga Wildlife Sanctuary',
                 description: 'A dense forest reserve contiguous with Bandipur and Mudumalai, famous for its wild elephant population.',
-                image: 'https://images.unsplash.com/photo-1588880625902-690a6a382e7e?auto=format&fit=crop&q=80&w=600'
+                image: 'https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&q=80&w=600'
             }
         ]
     },
@@ -125,17 +128,17 @@ export const destinationsData = [
             {
                 name: 'Mattancherry Palace (Dutch Palace)',
                 description: 'A Portuguese palace featuring Kerala murals depicting Hindu temple art, portraits and exhibits of the Rajas of Kochi.',
-                image: 'https://images.unsplash.com/photo-1582239634954-1215bb41fbd6?auto=format&fit=crop&q=80&w=600'
+                image: 'https://images.unsplash.com/photo-1593693411515-c20261bcad6e?auto=format&fit=crop&q=80&w=600'
             },
             {
                 name: 'Jewish Synagogue',
                 description: 'The oldest active synagogue in the Commonwealth of Nations, located in Jew Town, famous for its hand-painted tiles and Belgian chandeliers.',
-                image: 'https://images.unsplash.com/photo-1512411903657-3f33e75e119d?auto=format&fit=crop&q=80&w=600'
+                image: 'https://images.unsplash.com/photo-1593693411515-c20261bcad6e?auto=format&fit=crop&q=80&w=600'
             },
             {
                 name: 'Marine Drive',
                 description: 'A picturesque promenade in Ernakulam featuring beautiful backwater views, shopping options, and boat rides.',
-                image: 'https://images.unsplash.com/photo-1620614341999-52e85ab8de32?auto=format&fit=crop&q=80&w=600'
+                image: 'https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&q=80&w=600'
             }
         ]
     },
@@ -144,7 +147,7 @@ export const destinationsData = [
         slug: 'thekkady',
         name: 'Thekkady',
         desc: 'Home to the country\'s largest Tiger Reserve - Periyar.',
-        image: 'https://images.unsplash.com/photo-1588880625902-690a6a382e7e?auto=format&fit=crop&q=80&w=1200',
+        image: thekkadySafariImg,
         overview: 'The very sound of the word Thekkady conjures up images of elephants, unending chains of hills and spice scented plantations. In the crisp, cool air of the Western Ghats you will experience the most enchanting holiday. With the sanctuary\'s rich biodiversity and the scenic Periyar Lake, Thekkady is a nature lover\'s dream. It is famously home to the Periyar National Park, one of the most prominent tiger reserves in India.',
         howToReach: {
             air: 'Madurai Airport in Tamil Nadu is about 136 km away, while Cochin International Airport is approximately 190 km away.',
@@ -155,22 +158,22 @@ export const destinationsData = [
             {
                 name: 'Periyar National Park',
                 description: 'A renowned tiger reserve and elephant habitat. The boat safari on Periyar Lake is the best way to observe wildlife in their natural habitat.',
-                image: 'https://images.unsplash.com/photo-1588880625902-690a6a382e7e?auto=format&fit=crop&q=80&w=600'
+                image: thekkadySafariImg
             },
             {
                 name: 'Spice Plantations',
                 description: 'Guided tours through lush plantations growing cardamom, pepper, vanilla, and cinnamon.',
-                image: 'https://images.unsplash.com/photo-1622308644420-a81d45763943?auto=format&fit=crop&q=80&w=600'
+                image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&q=80&w=600'
             },
             {
                 name: 'Kadathanadan Kalari Centre',
                 description: 'Experience authentic Kalaripayattu, the ancient martial art of Kerala, performed by highly skilled practitioners.',
-                image: 'https://images.unsplash.com/photo-1512411903657-3f33e75e119d?auto=format&fit=crop&q=80&w=600'
+                image: 'https://images.unsplash.com/photo-1593693411515-c20261bcad6e?auto=format&fit=crop&q=80&w=600'
             },
             {
                 name: 'Elephant Junction',
                 description: 'An interactive center where visitors can enjoy elephant rides, bathing them, and feeding them.',
-                image: 'https://images.unsplash.com/photo-1582239634954-1215bb41fbd6?auto=format&fit=crop&q=80&w=600'
+                image: 'https://images.unsplash.com/photo-1593693411515-c20261bcad6e?auto=format&fit=crop&q=80&w=600'
             }
         ]
     },
@@ -179,7 +182,7 @@ export const destinationsData = [
         slug: 'kumarakom',
         name: 'Kumarakom',
         desc: 'Set in the backdrop of Vembanad Lake, a popular tourism destination.',
-        image: 'https://images.unsplash.com/photo-1592667362846-5be81a30f14d?auto=format&fit=crop&q=80&w=1200',
+        image: kumarakomBackwatersImg,
         overview: 'Kumarakom is a popular tourism destination located near the city of Kottayam, famous for its backwater tourism. It is set in the backdrop of Vembanad Lake, the largest lake in the state of Kerala. Kumarakom was the first destination in India to implement Responsible Tourism practices. It is a cluster of little islands on the Lake, and is part of the Kuttanad region. The bird sanctuary here, which is spread across 14 acres, is a favourite haunt of migratory birds and an ornithologist\'s paradise.',
         howToReach: {
             air: 'Cochin International Airport is the nearest airport, located around 85 km from Kumarakom.',
@@ -190,22 +193,22 @@ export const destinationsData = [
             {
                 name: 'Kumarakom Bird Sanctuary',
                 description: 'A paradise for bird watchers, hosting numerous migratory species including Siberian Storks and elegant egrets.',
-                image: 'https://images.unsplash.com/photo-1624467006856-ee0f09a65f9a?auto=format&fit=crop&q=80&w=600'
+                image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&q=80&w=600'
             },
             {
                 name: 'Vembanad Lake',
                 description: 'The heart of Kerala backwaters. Renting a houseboat or a canoe here is the quintessential Kumarakom experience.',
-                image: 'https://images.unsplash.com/photo-1592667362846-5be81a30f14d?auto=format&fit=crop&q=80&w=600'
+                image: kumarakomBackwatersImg
             },
             {
                 name: 'Pathiramanal Island',
                 description: 'A picturesque haven situated in Vembanad Lake, rich in biodiversity and accessible only by boat.',
-                image: 'https://images.unsplash.com/photo-1620614349341-e94f3ac2670e?auto=format&fit=crop&q=80&w=600'
+                image: 'https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&q=80&w=600'
             },
             {
                 name: 'Aruvikkuzhi Waterfall',
                 description: 'Located a short distance away in Kottayam, this beautiful waterfall cascades down the mountains surrounded by rubber plantations.',
-                image: 'https://images.unsplash.com/photo-1614949509428-2ce2fc0d75a1?auto=format&fit=crop&q=80&w=600'
+                image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&q=80&w=600'
             }
         ]
     }
