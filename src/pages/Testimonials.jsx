@@ -4,27 +4,35 @@ export default function Testimonials() {
     const reviews = [
         {
             id: 1,
-            name: "Rahul Sharma",
-            role: "Family Traveler from Delhi",
-            content: "Exceptional service! The driver was extremely polite and knew all the local spots in Munnar. The Innova we booked was spotlessly clean.",
+            name: "Rajkumar Maurya",
+            role: "2 months ago",
+            content: "I would highly recommend this taxi service. We travelled with Noufir. He is extremely helpful, kind and well-behaved person. He knows the area very well. As per our five days plan, I hired taxi for our trip starting from airport arrival to...",
             rating: 5,
-            image: "https://i.pravatar.cc/150?img=11"
+            image: "https://ui-avatars.com/api/?name=Rajkumar+Maurya&background=random"
         },
         {
             id: 2,
-            name: "Sarah Jenkins",
-            role: "Solo Backpacker from UK",
-            content: "I felt completely safe traveling across Kerala by myself thanks to Arookutty Taxi. They helped me plan my itinerary and the rates were very transparent.",
+            name: "Akansha Gupta",
+            role: "2 months ago",
+            content: "I would highly recommend this taxi service, clean and reasonably priced. We travelled with Niyaz. He is extremely helpful, kind and well-behaved person. He knows the area very well. He planned out our itinerary well and adjusted on the go...",
             rating: 5,
-            image: "https://i.pravatar.cc/150?img=5"
+            image: "https://ui-avatars.com/api/?name=Akansha+Gupta&background=random"
         },
         {
             id: 3,
-            name: "Mr. & Mrs. Menon",
-            role: "Couple from Mumbai",
-            content: "Booked them for our honeymoon trip to Alleppey. Everything was flawless from the airport pickup to the houseboat drop-off. Highly recommend!",
-            rating: 4,
-            image: "https://i.pravatar.cc/150?img=68"
+            name: "Lufy",
+            role: "2 months ago",
+            content: "Our Kerala trip was amazing, thanks to our guide Nawas! He’s a fantastic driver super safe and smooth. He knew all the best spots and gave great tips on where to eat, making sure we had authentic local experiences and experience the beauty...",
+            rating: 5,
+            image: "https://ui-avatars.com/api/?name=Lufy&background=random"
+        },
+        {
+            id: 4,
+            name: "Mohit Agrawal",
+            role: "2 months ago",
+            content: "Highly recommended. We booked 4 days trip for Munnar. NIYAS is very polite, co-operative and soft spoken. He took us to best restaurants for authentic food, he is knowledgeable for local sight seen, timings and planning the day itinerary. ...",
+            rating: 5,
+            image: "https://ui-avatars.com/api/?name=Mohit+Agrawal&background=random"
         }
     ];
 
